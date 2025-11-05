@@ -1,4 +1,7 @@
-
+# Project: Chicago Real Estate Data Analysis
+# Data Source: Chicago House Price (Kaggle)
+# https://www.kaggle.com/datasets/tawfikelmetwally/chicago-house-price
+# (Downloaded locally as: real_estate_data_chicago.csv)
 import re
 from typing import Optional
 import numpy as np
@@ -100,3 +103,4 @@ plt.xlabel(metric_for_analysis)
 plt.ylabel("Frequency")
 plt.tight_layout()
 plt.show()
+

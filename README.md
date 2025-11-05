@@ -1,6 +1,12 @@
 # UChicago MSADS -Project
 This project performs an exploratory data analysis (EDA) on Chicago real estate data using Python. It demonstrates practical data-cleaning, feature-engineering, and visualization techniques that are commonly used in data science and analytics.
 
+Dataset
+This project uses the Chicago House Price dataset from Kaggle:
+https://www.kaggle.com/datasets/tawfikelmetwally/chicago-house-price
+
+The CSV was downloaded locally and referenced as real_estate_data_chicago.csv. Please follow Kaggle’s dataset terms if you redistribute or publish derived data.
+
 1. Import Libraries
 
 Essential Python libraries are imported for data handling and visualization:
@@ -24,7 +30,7 @@ Before analysis, the dataset is cleaned and preprocessed:
 Removes missing or invalid values.
 Filters unrealistic data (e.g., prices ≤ 1 or area ≤ 50).
 Calculates a new variable price_per_sqft.
-Clips extreme outliers to improve statistical robustness.
+Clip extreme outliers to improve statistical robustness.
 
 5. Write My Own Function for Data Analysis
 
@@ -37,6 +43,8 @@ This function demonstrates how to encapsulate reusable analytical logic for diff
 6. Use My Function for Analysis
 
 The function is called to summarize variables like price_per_sqft_clipped or price, providing quick insight into market trends and data spread.
+
+
 
 7. Data Visualization
 

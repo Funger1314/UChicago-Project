@@ -2,10 +2,9 @@
 This project performs an exploratory data analysis (EDA) on Chicago real estate data using Python. It demonstrates practical data-cleaning, feature-engineering, and visualization techniques that are commonly used in data science and analytics.
 
 Dataset
-This project uses the Chicago House Price dataset from Kaggle:
-https://www.kaggle.com/datasets/tawfikelmetwally/chicago-house-price
 
-The CSV was downloaded locally and referenced as real_estate_data_chicago.csv. Please follow Kaggle’s dataset terms if you redistribute or publish derived data.
+This project uses the Chicago House Price dataset from Kaggle:
+https://www.kaggle.com/datasets/tawfikelmetwally/chicago-house-price. The CSV was downloaded locally and referenced as real_estate_data_chicago.csv. Please follow Kaggle’s dataset terms if you redistribute or publish derived data.
 
 1. Import Libraries
 
